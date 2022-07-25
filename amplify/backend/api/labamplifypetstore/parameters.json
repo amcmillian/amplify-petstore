@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "labamplifypetstore",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authlabamplifypetstore",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-07-22T22:49:51.856Z"
+}
